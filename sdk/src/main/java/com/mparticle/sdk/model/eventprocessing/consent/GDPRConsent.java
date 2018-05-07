@@ -43,23 +43,28 @@ public final class GDPRConsent {
         return hardwareId;
     }
 
-    public void setConsented(boolean consented) {
+    public GDPRConsent setConsented(boolean consented) {
         this.consented = consented;
+        return this;
     }
 
-    public void setDocument(String document) {
+    public GDPRConsent setDocument(String document) {
         this.document = document;
+        return this;
     }
 
-    public void setTimestamp(Long timestamp) {
+    public GDPRConsent setTimestamp(Long timestamp) {
         this.timestamp = timestamp;
+        return this;
     }
 
-    public void setLocation(String location) {
+    public GDPRConsent setLocation(String location) {
         this.location = location;
+        return this;
     }
 
-    public void setHardwareId(String hardwareId) {
+    public GDPRConsent setHardwareId(String hardwareId) {
         this.hardwareId = hardwareId;
+        return this;
     }
 }
